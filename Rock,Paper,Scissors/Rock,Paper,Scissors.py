@@ -4,7 +4,7 @@ import random
 #setup pygame and window
 pygame.init()
 WIDTH, HEIGHT = 1920, 1080
-win = pygame.display.set_mode((0,0), pygame.FULLSCREEN)
+win = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Rock, Paper, Scissors")
 
 #sounds
